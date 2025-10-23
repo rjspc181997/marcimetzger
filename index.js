@@ -6,6 +6,7 @@ function toggleMenu() {
 }
 
 
+
 /**Carousel */
 
 let currentIndex = 0;
@@ -36,4 +37,5 @@ function prevImage() {
   currentIndex = (currentIndex - 1 + allThumbnails.length) % allThumbnails.length;
   changeImage(allThumbnails[currentIndex]);
 }
+
 
